@@ -20,6 +20,20 @@ padding-top: 1em;
 padding-bottom: 0em;
 }
 
+.bored-container {
+    margin-left: 70px;
+}
+
+.form-container {
+    margin-left: 170px;
+    margin-bottom: 50px;
+}
+
+.timer {
+    margin-top: 50px;
+    margin-left: 150px
+}
+
 header {
     font-size: 9rem;
     font-weight: bold;
