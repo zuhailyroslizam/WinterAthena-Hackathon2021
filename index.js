@@ -42,3 +42,20 @@ function newElement(){
 
 
 }
+
+const para = document.querySelector(".paragraph")
+const button = document.querySelector(".boredbtn")
+
+const url = "http://www.boredapi.com/api/activity/"
+
+const getRandom = async () =>{
+    let response = await fetch(url);
+    let data = await response.json();
+    
+   console.log(data.activity);
+
+    para.textContent=data.activity;
+}
+
+button.addEventListener('onClick',getRandom)
+getRandom();
