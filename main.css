@@ -203,3 +203,11 @@ ul li:hover {
     background-color: #f44336;
     color: white;
 }
+
+.bored-container{
+    background-color:antiquewhite;
+    width: 300px;
+    border: 15px solid rgb(170, 247, 170);
+    padding: 50px;
+    margin: 20px;
+  }

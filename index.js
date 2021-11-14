@@ -42,6 +42,24 @@ function newElement(){
 
 
 }
+
+
+const para = document.querySelector(".paragraph")
+const button = document.querySelector(".boredbtn")
+
+const url = "http://www.boredapi.com/api/activity/"
+
+const getRandom = async () =>{
+    let response = await fetch(url);
+    let data = await response.json();
+    
+   console.log(data.activity);
+
+    para.textContent=data.activity;
+}
+
+button.addEventListener('onClick',getRandom)
+getRandom();
 // Convert time to a format of hours, minutes, seconds, and milliseconds
 
 function timeToString(time) {
@@ -116,4 +134,4 @@ function timeToString(time) {
   playButton.addEventListener("click", start);
   pauseButton.addEventListener("click", pause);
   resetButton.addEventListener("click", reset);
-//   end of timer script 
+//   end of timer script
