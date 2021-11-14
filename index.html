@@ -10,7 +10,7 @@
     <head>
       <body>
         <nav>
-          <label class="logo">Website Name</label>
+          <label class="logo">Athenazen</label>
           <!-- <ul>
             <li><a href="#">HOME</a></li>
             <li><a href="#">PLAY</a></li>
@@ -57,7 +57,48 @@
         <button class="boredbtn">Random</button>
       </div>
     </div>
+  
+    <!-- this is the html code for the timer function -->
+    <body>
+      <div class="timer">
+          <h1><span class="gold"></h1>
+          <div class="circle">
+              <span class="time" id="display">00:00:00</span>
+          </div>
+  
+          <div class="controls">
+              <button class="buttonPlay">
+                  <img id="playButton"
+                      src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/play-button_opkxmt.svg" />
+  
+                  <img id="pauseButton"
+                      src="https://res.cloudinary.com/https-tinloof-com/image/upload/v1593360448/blog/time-in-js/pause-button_pinhpy.svg" />
+              </button>
+  
+              <button class="buttonReset">
+  
+                  <div class="container">
+                      <img id="resetButton" alt="lotus"
+                          src="https://pixabay.com/get/g88e0729f90bbcaa38951d3ef6c277a0819b4078eb3ef966aa50a76b127127f1e9f82375c3581a6fb979cc05da577fa4a714139e7a5e402aca04d10bd0082e159180fe88b97d75bc30adcd5b0ff85e193_640.png"
+                          width="100" height="100" />
+                      <div class="overlay">RESET</div>
+  
+                      <h6 class="first-txt">
+                          Image by <a
+                              href="https://pixabay.com/users/truthseeker08-2411480/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1889661">truthseeker08</a>
+                          from <a
+                              href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1889661">Pixabay</a>
+                      </h6>
+                  </div>
+              </button>
+          </div>
+      </div>
+      </div>
+      <script src="timer.js"></script>
+  </body>
+  <!-- end of code section for the timer function -->
 
+  <!-- this is html code for the Todo List section -->
     <div class="form-container">
         <div class="form-left">
           <label for="text"> To Do List </label>
@@ -66,10 +107,11 @@
         </div>
       <ul id="workList">
         <li class="work">do some research</li>
-        <li class="work">make spreadsheet</li>
-        <li class="work">washing cloth</li>
+        <li class="work">create spreadsheet</li>
+        <li class="work">wash clothes</li>
       </ul>
     </div>
+    <!-- end of code section for the Todo List function -->
 
     <script type="text/javascript" src="index.js"></script>
   </body>
