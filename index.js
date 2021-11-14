@@ -43,10 +43,10 @@ function newElement(){
 
 }
 
-const para = document.querySelector(".paragraph")
-const button = document.querySelector(".boredbtn")
+const para = document.querySelector(".paragraph");
+const button = document.querySelector(".boredbtn");
 
-const url = "http://www.boredapi.com/api/activity/"
+const url = "http://www.boredapi.com/api/activity/";
 
 const getRandom = async () =>{
     let response = await fetch(url);
@@ -55,7 +55,7 @@ const getRandom = async () =>{
    console.log(data.activity);
 
     para.textContent=data.activity;
-}
+};
 
-button.addEventListener('onClick',getRandom)
+button.addEventListener("click",getRandom);
 getRandom();
