@@ -50,9 +50,9 @@ font-style: oblique;
 
 .form-container {
     background-color: white;
-    margin-top: 2em;
-    margin-left: 790px;
-    padding: 2em;
+    /* margin-left: 100px; */
+    margin-right: 50px;
+    padding: 2px;
 }
 
 label {
@@ -70,14 +70,14 @@ input[type=text] {
     border-radius: 2.5em;
 }
 
-input[type=text]
+/* input[type=text] */
 
-.form-container p {
+/* .form-container p {
 color: gray;
 margin-bottom: 1.5em;
 font-weight: normal;
 font-size: .9em;
-}
+} */
 
 #addBtn {
 background-color: #307d99;
@@ -210,4 +210,9 @@ ul li:hover {
     border: 15px solid rgb(170, 247, 170);
     padding: 50px;
     margin: 20px;
-  }
+}
+
+.big-container{
+    display:flex;
+    flex-direction: row;
+}

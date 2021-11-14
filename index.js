@@ -57,7 +57,7 @@ const getRandom = async () =>{
     para.textContent=data.activity;
 };
 
-button.addEventListener("click",getRandom);
+button.addEventListener("click", getRandom);
 getRandom();
 
 // Convert time to a format of hours, minutes, seconds, and milliseconds
